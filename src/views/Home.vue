@@ -3,7 +3,7 @@
     <div class="content">
       <div class="section-title">
         <div class="title">
-          <h1>實作題：列出最近8個Public Github Repos</h1>
+          <h1>實作題：列出自己8個Public Github Repos</h1>
           <h3>請輸入您的Github帳號：</h3>
           <form @submit.prevent="getRepos">
             <input type="text" v-model="user">
